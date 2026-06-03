@@ -1,9 +1,9 @@
 import Navbar from "./components/navbar";
-import { Route,Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage"
 import SignUpPage from "./pages/SignUpPage";
 import LoginPage from "./pages/LoginPage";
-import ProfilePage from "./pages/ProfilePage";
+import ProfilePage from "./pages/ProfilePage.jsx";
 import SettingsPage from "./pages/SettingsPage";
 import { axiosInstance } from "./lib/axios";
 import {useAuthStore} from "./store/useAuthStore.js"
@@ -29,10 +29,10 @@ const App = () => {
 
     <Navbar/>
     <Routes>
-      <Route path="/" element={authUser? <HomePage/>: <navigate to="/login" /> } />  
-      <Route path="/signup" element={!authUser?<SignUpPage/> :<navigate to="/" />}  />  
-      <Route path="/login" element={!authUser?<LoginPage/>:<navigate to="/"/>} />  
-      <Route path="/profile" element={authUser?<ProfilePage/>:<navigate to="/login"/>} />  
+      <Route path="/" element={authUser? <HomePage/>: <Navigate to="/login" /> } />
+      <Route path="/signup" element={!authUser?<SignUpPage/> :<Navigate to="/" />}  />
+      <Route path="/login" element={!authUser?<LoginPage/>:<Navigate to="/profile"/>} />
+      <Route path="/profile" element={authUser?<ProfilePage/>:<Navigate to="/login"/>} />  
       <Route path="/settings" element={<SettingsPage/>} />  
 
       

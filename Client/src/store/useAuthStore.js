@@ -57,7 +57,22 @@ export const useAuthStore=create((set) => ({
       console.log("error logging out:", error);
       toast.error("Logout failed!");
     }
+  },
+  updateProfile:async (data)=>{
+    set({isUpdatingProfile: true});
+  try {
+        const res =await axiosInstance.put("/auth/update-profile", data);
+        set({authUser: res.data});
+        toast.success("Profile updated successfully!");
+
+  } catch (error) {
+    console.log("error updating profile:", error);
+    toast.error("Failed to update profile!");
+  }
+  finally {
+    set({isUpdatingProfile: false});
   }
 
+},
 
 }))
