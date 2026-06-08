@@ -1,4 +1,4 @@
-# 💬 ChitChat — Real-Time MERN Chat Application
+# 💬 Bangla Chat — Real-Time MERN Chat Application
 
 A full-stack real-time messaging application built with the **MERN stack** (MongoDB, Express, React, Node.js) and **Socket.IO**. It supports secure authentication, instant one-on-one messaging, image sharing, live online-user presence, and a fully themeable UI.
 
