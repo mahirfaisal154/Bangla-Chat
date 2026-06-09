@@ -142,7 +142,6 @@ The app uses **Socket.IO** to:
 
 ## 📸 Preview
 
-> _Add screenshots or a demo GIF of the login page, chat interface, and theme switcher here to showcase the UI._
 
 ---
 
