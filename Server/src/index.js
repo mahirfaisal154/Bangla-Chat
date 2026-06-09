@@ -28,7 +28,7 @@ app.use("/api/auth",authroutes)
 app.use("/api/messages", messageroutes)
 if(process.env.NODE_ENV === "production"){
     app.use(express.static(path.join(__dirname,"../../Client/dist")))
-  app.get("*", (req, res) => {
+  app.get("/{*splat}", (req, res) => {
     res.sendFile(path.join(__dirname, "../../Client/dist", "index.html"))
   })
 }
