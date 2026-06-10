@@ -141,7 +141,9 @@ The app uses **Socket.IO** to:
 ---
 
 ## 📸 Preview
-
+![Logo](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20093659.png)
+![Logo](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20094021.png)
+![Logo](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20094031.png)
 
 ---
 
