@@ -149,18 +149,19 @@ The app uses **Socket.IO** to:
 
 ### 🔐 Authentication
 Sign up and log in with JWT-secured sessions stored in HTTP-only cookies.
+![Theme selection and profile settings](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20094031.png?raw=true)
 
-![Login and signup screen](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20093659.png?raw=true)
+
 
 ### 💬 Real-Time Chat
 One-on-one messaging with live online presence and instant delivery via Socket.IO.
+![Login and signup screen](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20093659.png?raw=true)
 
-![Chat interface with contact sidebar and message thread](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20094021.png?raw=true)
 
 ### 🎨 Themes & Profile
 Switch between DaisyUI themes and update your profile picture and details.
 
-![Theme selection and profile settings](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20094031.png?raw=true)
+![Chat interface with contact sidebar and message thread](https://github.com/mahirfaisal154/Bangla-Chat/blob/main/Screenshot/Screenshot%202026-06-10%20094021.png?raw=true)
 
 ---
 
